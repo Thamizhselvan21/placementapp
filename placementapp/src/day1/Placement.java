@@ -15,5 +15,9 @@ public class Placement {
 	public void setJob(String job) {
 		this.job = job;
 	}
+	@Override
+	public String toString() {
+		return "Placement [pid=" + pid + ", job=" + job + "]";
+	}
 	
 }
