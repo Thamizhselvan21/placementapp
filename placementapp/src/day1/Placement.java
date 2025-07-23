@@ -19,5 +19,10 @@ public class Placement {
 	public String toString() {
 		return "Placement [pid=" + pid + ", job=" + job + "]";
 	}
+	public Placement(int pid, String job) {
+		super();
+		this.pid = pid;
+		this.job = job;
+	}
 	
 }
